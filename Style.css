@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+}
+img{
+    align-items: center;
+    width: 15rem ;
+}
+h1{
+    color: white;
+    font-family: "Sofadi One", system-ui;
+    font-weight: 900;
+}
+#name{
+color: cyan;
+font-size: 50px;
+}
+#va{
+color: aquamarine;
+font-size: 50px;
+}
+#ai{
+    width: 200px;
+    display: none;
+}
+#cont{
+    display: flex;
+}
+h2{
+    color: whitesmoke;
+    text-shadow: 10px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: 100% 100%;
+    background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+    background-image: repeating-linear-gradient(315deg, #00FFFF2E 92%, #073AFF00 100%),repeating-radial-gradient(75% 75% at 238% 218%, #00FFFF12 30%, #073AFF14 39%),radial-gradient(99% 99% at 109% 2%, #00C9FFFF 0%, #073AFF00 100%),radial-gradient(99% 99% at 21% 78%, #7B00FFFF 0%, #073AFF00 100%),radial-gradient(160% 154% at 711px -303px, #2000FFFF 0%, #073AFFFF 100%);
+    border-radius: 10px;
+    padding: 10px;
+}
+.material-symbols-outlined {
+    color: black;
+    background: white;
+    padding: 20px;
+    border-radius: 100%;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.material-symbols-outlined:hover{
+    scale: 1.10;
+}
+
+@media (max-width:600px) {
+    h1{
+        margin-left: 60px; 
+    }
+    
+}
+
+
